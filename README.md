@@ -51,6 +51,7 @@ To use the code you need to adopt the following steps.
 2. Run ``setup.sh`` in the terminal
 3. Activate the virtual environment
 4. Run ```main.py``` in the terminal
+5. Deactivate the virtual environment
 
 ### Clone repository
 
@@ -118,6 +119,14 @@ For example, if you have a CSV file named ```my_data.csv``` with text data in th
 
 ```bash
 python3 src/main.py --data my_data.csv --column text --label category
+```
+
+### Deactivate virtual environment
+
+When you are done using the script, you can deactivate the virtual environment by running the following line in the terminal:
+
+```bash
+deactivate
 ```
 
 <!-- REPOSITORY STRUCTURE -->
