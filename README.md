@@ -144,6 +144,6 @@ This repository has the following structure:
 ## Reproducibility
 The following results were obtained using the provided sample data.
 
-![All data plot]()
+![All data plot](https://github.com/sashapustota/emotion-classification-with-transformers/blob/main/plots/sample_all_data_plot.png)
 
-![Category plot]()
+![Category plot](https://github.com/sashapustota/emotion-classification-with-transformers/blob/main/plots/sample_category_plot.png)
