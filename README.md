@@ -45,7 +45,7 @@ The `j-hartmann/emotion-english-distilroberta-base` transformer model from the H
 ## Usage
 To use the code you need to adopt the following steps.
 
-**NOTE:** Please note that the instructions provided here have been tested on a Mac machine running macOS Ventura 13.1, using Visual Studio Code version 1.76.0 (Universal) and a Unix-based bash terminal. While they should also be compatible with other Unix-based systems like Linux, slight variations may exist depending on the terminal and operating system you are using. To ensure a smooth installation process and avoid potential package conflicts, it is recommended to use the provided ```run.sh``` bash file, which includes the necessary steps to create a virtual environment for the project. However, if you encounter any issues or have questions regarding compatibility on other platforms, please don't hesitate to reach out for assistance.
+**NOTE:** Please note that the instructions provided here have been tested on a Mac machine running macOS Ventura 13.1, using Visual Studio Code version 1.76.0 (Universal) and a Unix-based bash terminal. While they should also be compatible with other Unix-based systems like Linux, slight variations may exist depending on the terminal and operating system you are using. To ensure a smooth installation process and avoid potential package conflicts, it is recommended to use the provided ```setup.sh``` bash file, which includes the necessary steps to create a virtual environment for the project. However, if you encounter any issues or have questions regarding compatibility on other platforms, please don't hesitate to reach out for assistance.
 
 1. Clone repository
 2. Run ``setup.sh`` in the terminal
@@ -84,7 +84,7 @@ bash setup.sh
 To activate the newly created virtual environment, run the following line in the terminal:
 
 ```bash
-source ./simple-text-classification-venv/bin/activate
+source ./emotion-classification-with-transformers-venv/bin/activate
 ```
 
 ### Run ```main.py```
@@ -149,8 +149,8 @@ This repository has the following structure:
         main.py
 
 ```
-<!-- REPRODUCIBILITY -->
-## Reproducibility
+<!-- RESULTS -->
+## Results
 The following results were obtained using the provided sample data.
 
 ![All data plot](https://github.com/sashapustota/emotion-classification-with-transformers/blob/main/plots/sample_all_data_plot.png)
